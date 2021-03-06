@@ -1,0 +1,8 @@
+.feedbackPage {
+    padding-top: 55px;
+}
+
+.feedbackForm {
+    display: flex;
+    flex-direction: column;
+}

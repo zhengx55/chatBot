@@ -1,0 +1,5 @@
+Indexer: You are familiar with what an index is at the back of any textbook. Instead of searching for a certain keyword line by line and across pages, you instead look up the keyword on the index and instantly go to the page number and refer to it. For this project, you will also be building an indexer that will index data.
+(a) Some ‘very special’ type of users (maybe administrators?) can upload data files that will get indexed by your software system.
+(b) Your chatbot is only as good as what is indexed by these data files.
+(c) You want to make sure that only certain individuals on your software can upload these data files ( text files, pdf files, doc files or html files). This option is a manual process; i.e., the user must manually upload these data files.
+(d) When performing a search based on a query presented by the user; your project, must refer to the index, and then present to the user the files (HTML, doc, pdf) that matches the user’s query. This is also very similar to the search results presented by Google.

@@ -1,0 +1,24 @@
+.LoginContainer {
+    padding-top: 180px;
+}
+
+.LoginButtons {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column
+}
+
+.usernameError {
+    color: red;
+    font-size: 12px;
+}
+
+.passwordError {
+    color: red;
+    font-size: 12px;
+}
+
+.loginError {
+    color: red;
+    font-size: 12px;
+}

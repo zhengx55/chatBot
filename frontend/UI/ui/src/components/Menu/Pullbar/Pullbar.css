@@ -1,0 +1,57 @@
+.pullbar {
+    position: fixed;
+    top: 0ch;
+    width: 100%;
+    height: 56px;
+    background: black;
+    z-index: 300;
+}
+
+.pullbar_nav {
+    box-sizing: border-box;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.bar_logo{
+    margin-left: 2.0rem;
+}
+.bar_logo a{
+    color:white;
+    text-decoration: none;
+    font-size: 3ch;
+}
+
+.partial{
+    flex: 1;
+}
+
+.pull_items a{
+    position: flex;
+    color: white;
+    border: 0.05px solid #3489db;
+    text-decoration: none;
+    font-size: 1ch;
+    background: #3489db;
+    font-family: "montserrat";
+    cursor: pointer;
+    margin: 5px;
+    transition: 0.8s;
+}
+
+.pull_items ul{
+    list-style: none;
+    display: flex;
+    margin: 0 ;
+}
+
+.pull_items li{
+    padding: 0 0.8rem;
+    font-size: 2ch;
+    color: white;
+}
+
+.pull_items a:hover,
+.pull_items a:active{
+    color: aquamarine;
+}

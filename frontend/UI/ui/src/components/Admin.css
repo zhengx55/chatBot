@@ -1,0 +1,121 @@
+.adminPage {
+    display: flex;
+    flex-direction: row;
+}
+
+/*.progress {*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    margin-top: 80px;*/
+/*    color: red;*/
+/*}*/
+
+.dash_container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.admin_container {
+    margin-top: 60px;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.progress_bar {
+    /*display: none;*/
+    /*position: fixed;*/
+    top: 56px;
+    height: 8px !important;
+    width: 100%;
+    /*z-index: 999;*/
+}
+
+.adminLeft {
+    display: flex;
+    flex-direction: column;
+    /*margin-top: 100px;*/
+    flex-grow: 2;
+    /*background: #b4b4b4;*/
+    /*border-left: 80px white;*/
+    /*border-right: 80px white;*/
+}
+
+.adminRight {
+    /*margin-top: 100px;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-grow: 1;
+    /*background: #b4b4b4;*/
+    /*border-right: 80px white;*/
+
+}
+
+.feedlist {
+    width: 160px;
+}
+
+.feedback {
+    background: #9cca61;
+    color: white;
+    border-radius: 7px;
+    margin-top: 40px;
+    /*margin-left: 20px;*/
+    width: 300px;
+    box-shadow: 0 6px 10px -2px rgba(0, 0, 0, .25)
+}
+
+.MuiInput-underline:after {
+    border-bottom: 2px solid #bbbbbb !important;
+}
+
+
+.admin_component {
+background: #8b8b8b;
+color: white;
+border-radius: 7px;
+padding-top: 3px;
+margin-top: 40px;
+margin-left: 20px;
+box-shadow: 0 6px 10px -2px rgba(0, 0, 0, .25)
+}
+
+.adminPageItem {
+padding-bottom: 5em;
+}
+
+.root {
+width: 100%;
+}
+
+.paper {
+    width: 100%;
+    overflow-x: auto;
+}
+
+.table {
+    min-width: 650px;
+}
+
+.table_group {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.accessError {
+    padding-top: 40px;
+}
+
+.MuiInputBase-inputMarginDense {
+    padding-top: 3px;
+    width: 264.93px !important;
+}
+
+#docURL {
+    display: flex;
+    flex-direction: column;
+}

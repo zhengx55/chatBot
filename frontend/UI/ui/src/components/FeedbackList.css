@@ -1,0 +1,18 @@
+.root{
+    width: 100%;
+}
+.User{
+    font-size: 20px;
+    flex-basis: 33.33%;
+    box-sizing: border-box;
+}
+.User_Feedback{
+    font-size: 15px;
+    color: gray;
+
+}
+
+.feedback_list {
+    width: 80%;
+    margin: auto;
+}

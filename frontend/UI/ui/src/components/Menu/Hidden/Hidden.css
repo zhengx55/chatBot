@@ -1,0 +1,42 @@
+.hidden_pull_down{
+    top: 0;
+    left: 0;
+    width: 30%;
+    height: 45%;
+    background: rgb(12, 2, 2);
+    box-shadow: 2px 0px 7px black(0, 0, 0, 0.5);
+    position: fixed;
+    box-sizing: border-box;
+    z-index: 200;
+    margin-top: 20px;
+}
+
+.hidden_pull_down ul{
+    height: 100%;
+    list-style: none;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+}
+
+.hidden_pull_down li{
+    margin: -22px 1.0rem;
+}
+
+.hidden_pull_down a{
+    background:#9E9E9E;
+    color: azure;
+    cursor: pointer;
+    transition: 0.8s;
+    border: 2px solid #3489db;
+    text-decoration: none;
+    font-size: 1rem;
+    margin-top: 100px;
+    width: 100%;
+    bottom:50px;
+}
+
+.hidden_pull_down a:hover,
+.hidden_pull_down a:active{
+    color:red;
+}

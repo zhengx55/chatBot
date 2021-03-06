@@ -1,0 +1,24 @@
+.toggle_botton{
+    display: flex;
+    height: 30px;
+    background: transparent;
+    border: 0;
+    width: 30px;
+    padding: 10%;
+    cursor: pointer;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 200;
+    
+}
+.toggle_botton:focus{
+    outline: none;
+}
+
+.line{
+    width: 32px;
+    background: white;
+    height: 4px;
+    transform: rotate(125deg);
+}

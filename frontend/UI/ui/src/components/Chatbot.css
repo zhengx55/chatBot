@@ -1,0 +1,108 @@
+.root {
+    padding-top: 70px;
+    height:734px;
+}
+
+.flex{
+    display: flex;
+    height: 83%;
+    overflow:auto;
+}
+
+.flex2{
+    display: flex;
+    padding-top: 1%;
+
+}
+
+.chatWindow {
+    width: 100%;
+    padding: 10px;
+
+}
+
+.chatbot{
+    display: flex;
+    justify-content: flex-start;
+    align-items:baseline;
+}
+.message_inbox{
+    margin-left: 1%;
+    width: 1000px;
+    word-wrap: break-word;
+}
+
+.message_inbox p{
+    background: #efefef none repeat scroll 0 0;
+    border-radius: 10px;
+    color: #646464;
+    font-size: 14px;
+    margin: 0;
+    padding: 5px 10px 5px 10px;
+    width: 200px;
+    word-wrap: break-word;
+
+}
+.preview{
+    width: 800px;
+    margin-left: 1%;
+    word-wrap: break-word;
+}
+
+
+.preview p{
+    font-size: 14px;
+    border-bottom: 1px solid rgba(0, 0, 0, .125);
+    word-wrap: break-word;
+}
+
+.MuiExpansionPanelDetails-root p{
+    width: 100%;
+    word-wrap: break-word;
+}
+
+.user_message{
+    float: right;
+    width: 1000px;
+    margin-right: 1%;
+    /*margin-left: 700px;*/
+    word-wrap: break-word;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.user_message p{
+    background: #007bff none repeat scroll 0 0;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 14px;
+    margin: 0;
+    padding: 5px 10px 5px 10px;
+    width: 200px;
+    word-wrap: break-word;
+}
+
+.user{
+    display: flex;
+    justify-content: flex-end;
+    align-items:baseline;
+
+}
+
+.chatBox {
+    width: 85%;
+}
+
+.sub_menu ul{
+    list-style: none;
+    display: flex;
+}
+
+.button {
+    width: 15%;
+    height: 45px;
+}
+
+.test {
+    padding-right: 50px;
+}
